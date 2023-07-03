@@ -1,0 +1,139 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Example Eng Good",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng.png",
+        "--language",
+        "eng",
+      ],
+    },
+    {
+      "name": "Example Eng Low Res",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng-low-res.png",
+        "--language",
+        "eng",
+      ],
+    },
+    {
+      "name": "Example Eng Vertical Bad",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng-vertical.png",
+        "--language",
+        "eng",
+      ],
+    },
+    {
+      "name": "Example Eng Vertical Good",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng-vertical.png",
+        "--language",
+        "eng",
+        "--not-horizontal"
+      ],
+    },
+    {
+      "name": "Example Mk Bad",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-mkd.png",
+      ],
+    },
+    {
+      "name": "Example Mk Good",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-mkd.png",
+        "--language",
+        "mkd",
+      ],
+    },
+    {
+      "name": "Example Eng PSM",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng.png",
+        "--language",
+        "eng",
+        "--page-segmentation-mode"
+      ],
+    },
+    {
+      "name": "Example Eng Skewed",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng-skewed.png",
+        "--language",
+        "eng",
+      ],
+    },
+    {
+      "name": "Example Hand Written",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-hand-written.png",
+        "--language",
+        "eng",
+      ],
+    },
+    {
+      "name": "Example Multi Column",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-multi-column.png",
+        "--language",
+        "eng",
+      ],
+    },
+    {
+      "name": "Example Json Output",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/demo.py",
+      "args": [
+        "--image",
+        "images/example-eng.png",
+        "--language",
+        "eng",
+        "--format",
+        "json"
+      ],
+    },
+  ]
+}

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ocr-2"
+version = "0.1.0"
+description = ""
+authors = ["milan <milan@halicea.com>"]
+readme = "README.md"
+packages = [{include = "ocr_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "^4.8.0.74"
+pytesseract = "^0.3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
