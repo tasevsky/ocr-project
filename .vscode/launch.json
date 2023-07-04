@@ -73,19 +73,6 @@
       ],
     },
     {
-      "name": "Example Eng PSM",
-      "type": "python",
-      "request": "launch",
-      "program": "${workspaceFolder}/demo.py",
-      "args": [
-        "--image",
-        "images/example-eng.png",
-        "--language",
-        "eng",
-        "--page-segmentation-mode"
-      ],
-    },
-    {
       "name": "Example Eng Skewed",
       "type": "python",
       "request": "launch",
